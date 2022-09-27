@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "es2021",
+    "lib": ["es2021", "dom"],
+    "module": "commonjs",
+    "noEmit": true,
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@modules/*": ["modules/*"],
+      "@infra/*": ["infra/*"],
+      "@core/*": ["core/*"],
+      "@config/*": ["config/*"],
+      "@test/*": ["test/*"]
+    }
+  },
+  "include": ["src"]
+}
